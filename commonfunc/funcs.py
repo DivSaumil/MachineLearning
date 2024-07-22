@@ -48,9 +48,9 @@ def show_metrics(predicted, actual):
     :return:
     '''
     rmse = np.sqrt(mean_squared_error(predicted, actual))
-    r2_score = r2_score(predicted, actual)
+    r2_scorei = r2_score(predicted, actual)
     print('RMSE:', rmse)
-    print('R2 score:', r2_score)
+    print('R2 score:', r2_scorei)
 
     # Plotting
     plt.figure(figsize=(10, 6))
